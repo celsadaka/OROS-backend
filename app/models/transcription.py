@@ -1,4 +1,4 @@
-from _future_ import annotations
+from __future__ import annotations
 from sqlalchemy import String, Integer, Float, Enum, DateTime, ForeignKey, Text, Index
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from .base import Base
