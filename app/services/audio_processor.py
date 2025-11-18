@@ -64,4 +64,3 @@ class AudioProcessor:
                 "error": str(e)
             }
 
-print("AudioProcessor created!")
