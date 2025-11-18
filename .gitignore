@@ -1,3 +1,7 @@
+# Environment & secrets
+.env
+*.env
+
 # Python
 __pycache__/
 *.pyc
@@ -6,15 +10,21 @@ __pycache__/
 
 # Virtual env
 .venv/
+venv/
 
 # Databases
 *.db
 *.sqlite
 
-# Environment & secrets
-.env
-*.env
+# Audio files
+audio_storage/
+*.wav
+*.mp3
 
 # OS / Editor
 .DS_Store
 .vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
