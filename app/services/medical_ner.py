@@ -148,4 +148,3 @@ class MedicalNER:
             if entity_list
         }
 
-print("MedicalNER created!")
