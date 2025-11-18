@@ -12,6 +12,7 @@ from .routes import (
     operating_rooms,
     notifications,
     dashboard,
+    websocket_transcription,  # Added
 )
 from . import auth 
 
@@ -42,6 +43,7 @@ app.include_router(operating_rooms.router, prefix="/operating-rooms", tags=["Ope
 app.include_router(notifications.router, prefix="/notifications", tags=["Notifications"])
 app.include_router(auth.router)  
 app.include_router(dashboard.router, prefix="/dashboard", tags=["dashboard"])
+app.include_router(websocket_transcription.router, prefix="/api", tags=["Real-time Transcription"])
 
 @app.get("/", tags=["Root"])
 def root():
