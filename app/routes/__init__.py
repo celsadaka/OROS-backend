@@ -5,3 +5,4 @@ from . import transcriptions
 from . import surgeries
 from . import operating_rooms
 from . import notifications
+from . import websocket_transcription
