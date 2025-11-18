@@ -15,7 +15,7 @@ class AnalysisService:
             raise ValueError("GROQ_API_KEY not found in environment variables")
         
         self.client = Groq(api_key=self.api_key)
-        self.model = "llama-3.3-70b-versatile"  # Free and powerful
+        self.model = "llama-3.3-70b-versatile" 
     
     def analyze_transcription(
         self,
