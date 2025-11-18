@@ -78,5 +78,3 @@ class TranscriptionService:
             confidences.append(confidence)
         
         return sum(confidences) / len(confidences) if confidences else 0.5
-
-print("TranscriptionService created!")
