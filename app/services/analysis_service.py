@@ -139,4 +139,3 @@ Be thorough but concise. Focus on clinically relevant information."""
         
         return "\n".join(prompt_parts)
 
-print("AnalysisService created!")
